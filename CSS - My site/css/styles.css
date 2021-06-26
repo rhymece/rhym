@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin-top: 0;
+  font-family: 'Sacramento', cursive;
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.myname {
+  font-size: 400%;
+}
+.pro {
+  text-decoration: underline;
+}
+.img-round {
+  border-radius: 50%;
+}
+
+.top-container {
+  background-color: #CDF0EA;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 450px;
+  top: 100px;
+ }
+
+.bottom-cloud {
+  position: absolute;
+  left: 400px;
+  bottom: 200px;
+}
+
+/*************** Middle Container ***************/
+.middle-container {
+  padding: 20px 20px;
+}
+
+.profile {
+  padding-bottom: 30px;
+}
+.skills {
+  padding: 20px 0 20px;
+}
+.html {
+  background-color: #E99497;
+  margin-right: 20px;
+}
+.python {
+  background-color: #B3E283;
+}
+.software {
+  background-color: #F3C583;
+}
+.leadership {
+  background-color: #FFEAC9;
+}
+.contact-me {
+  padding: 30px 0 15px;
+}
+
+
+/************************** Footer ****************/
+.bottom-container {
+  padding: 30px 0 15px;
+  background-color: #B3E283;
+}
+
+.footer-link {
+  padding: 0 20px;
+}
