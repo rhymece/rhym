@@ -5,18 +5,30 @@ body {
 }
 
 h1 {
-  margin-top: 0;
+  margin: 50px auto 10px;
   font-family: 'Sacramento', cursive;
+  font-size: 5rem;
+  color: #3A6351;
+  /* color: #66BFBF */
 }
 h2 {
   font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+  /* color: #1e836c; */
 }
 h3 {
   font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  /* color: #4CA1A3; */
+}
+a {
+  color: #11999E;
 }
 
-.myname {
-  font-size: 400%;
+.programmer {
+  color: #3A6351;
+  font-weight: normal;
+  line-height: 2;
 }
 .pro {
   text-decoration: underline;
@@ -33,15 +45,16 @@ h3 {
 
 .top-cloud {
   position: absolute;
-  right: 200px;
+  right: 400px;
   top: 100px;
  }
 
 .bottom-cloud {
   position: absolute;
-  left: 100px;
+  left: 350px;
   bottom: 200px;
 }
+
 
 /*************** Middle Container ***************/
 .middle-container {
@@ -54,22 +67,39 @@ h3 {
 .skills {
   padding: 20px 0 20px;
 }
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.html, .software, .leadership, .python {
+  width: 25%;
+}
+
 .html {
   background-color: #E99497;
-  margin-right: 20px;
+  float: left;
+  margin-right: 30px;
 }
 .python {
   background-color: #B3E283;
 }
 .software {
   background-color: #F3C583;
+  float: right;
+  margin-left: 30px;
 }
 .leadership {
+  float: left;
+  margin-right: 30px;
   background-color: #FFEAC9;
 }
 .contact-me {
   padding: 30px 0 15px;
 }
+
 
 
 /************************** Footer ****************/
